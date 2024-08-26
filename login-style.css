@@ -1,0 +1,189 @@
+@font-face {
+	/* 3270 Nerd Font Regular */
+	font-family: "3270 Nerd Font Regular";
+	src: url(fonts/3270NerdFont-Regular.ttf);
+}
+@font-face {
+	/* 3270 Nerd Font Condensed */
+	font-family: "3270 Nerd Font Condensed";
+	src: url(fonts/3270NerdFont-Condensed.ttf);
+}
+@font-face {
+	/* 3270 Nerd Font Semi Condensed */
+	font-family: "3270 Nerd Font Semi Condensed";
+	src: url(fonts/3270NerdFont-SemiCondensed.ttf);
+}
+@font-face {
+	/* 3270 Nerd Font Mono Condensed */
+	font-family: "3270 Nerd Font Mono Condensed";
+	src: url(fonts/3270NerdFontMono-Condensed.ttf);
+}
+@font-face {
+	/* 3270 Nerd Font Mono Regular*/
+	font-family: "3270 Nerd Font Mono Regular";
+	src: url(fonts/3270NerdFontMono-Regular.ttf);
+}
+@font-face {
+	/* 3270 Nerd Font Mono Semi Condensed */
+	font-family: "3270 Nerd Font Mono Semi Condensed";
+	src: url(fonts/3270NerdFontMono-SemiCondensed.ttf);
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+	margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/* Custom properties and default styling */
+:root {
+	--my-black: #040404;
+	--darkest-green: #080e06;
+	--darker-green: #223c17;
+	--dark-green: #3f732a;
+	--medium-green: #5cab3d;
+	--light-green: #79e24f;
+	--neon-green: #54ff11;
+	--my-red: #ff1212;
+	--my-yellow: #d4ff12;
+	--my-blue: #122aff;
+
+	font-size: 24px;
+	text-shadow: #54ff1180 0px 0px 0.25em;
+
+	background-color: var(--my-black);
+	color: var(--neon-green);
+
+	font-family: "3270 Nerd Font Mono Regular";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+fieldset {
+    border: solid var(--darker-green) 2px;
+    background-color: var(--darkest-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: ; */
+    gap: 0.5rem;
+}
+
+#row-3 {
+    align-self: center;
+}
+
+input {
+	background-color: var(--darker-green);
+	border: solid var(--darkest-green) 2px;
+	box-shadow: var(--my-black) 0.25rem 0.25rem;
+	border-radius: 0.1rem;
+	color: var(--neon-green);
+	line-height: 1.15;
+	padding: 0.25rem;
+}
+
+/* input:valid {
+	border: solid var(--neon-green) 2px;
+} */
+
+input:invalid {
+	border: solid var(--my-red) 2px;
+}
+
+input:focus-visible {
+	outline: none;
+	border: solid var(--neon-green) 2px;
+	/* box-shadow: var(--light-green) 0.25rem 0.25rem; */
+}
+
+button {
+    background-color: var(--darker-green);
+    box-shadow: var(--my-black) 0.25rem 0.25rem;
+	border-radius: 0.2rem;
+	border: var(--darkest-green) solid 2px;
+	color: var(--neon-green);
+	font-weight: 800;
+	padding: 0.25rem 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    flex: 1;
+}
+
+input {
+    flex: 1;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+a {
+	/* text-decoration: none; */
+	color: var(--my-yellow);
+}
