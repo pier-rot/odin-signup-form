@@ -88,16 +88,18 @@ h6 {
 /* Custom properties and default styling */
 :root {
 	--my-black: #040404;
-	--darkest-green: #080E06;
+	--darkest-green: #080e06;
 	--darker-green: #223c17;
 	--dark-green: #3f732a;
 	--medium-green: #5cab3d;
 	--light-green: #79e24f;
 	--neon-green: #54ff11;
-	--my-red: #FF1212;
+	--my-red: #ff1212;
+	--my-yellow: #d4ff12;
+	--my-blue: #122aff;
 
 	font-size: 24px;
-	
+
 	background-color: var(--my-black);
 	color: var(--light-green);
 
@@ -120,12 +122,11 @@ aside {
 	align-items: center;
 }
 
-
 main {
 	display: flex;
 	flex-direction: column;
 	flex: 2;
-	background-color: var(--darkest-green);
+	background-color: var(--my-black);
 	padding: 1rem;
 	/* justify-content: space-between; */
 }
@@ -135,7 +136,7 @@ header {
 	margin-bottom: 2rem;
 }
 
-main>article>p {
+main > article > p {
 	margin-bottom: 1rem;
 }
 
@@ -149,11 +150,13 @@ fieldset {
 	gap: 0.5rem;
 }
 
-#left-form, #right-form {
+#left-form,
+#right-form {
 	flex: 1;
 }
 
-#left-form *, #right-form * {
+#left-form *,
+#right-form * {
 	display: block;
 }
 
@@ -181,7 +184,7 @@ fieldset {
 	flex: 0 1 auto;
 }
 
-#image-overlay>p {
+#image-overlay > p {
 	/* flex: 1; */
 	font-size: 1rem;
 	white-space: pre;
@@ -196,6 +199,51 @@ fieldset {
 }
 
 a {
-	text-decoration: none;
+	/* text-decoration: none; */
 	color: var(--neon-green);
+}
+
+input {
+	background-color: var(--darker-green);
+	border: solid var(--darkest-green) 2px;
+	box-shadow: var(--my-black) 0.25rem 0.25rem;
+	border-radius: 0.1rem;
+	color: var(--light-green);
+	line-height: 1.15;
+	padding: 0.25rem;
+}
+
+/* input:valid {
+	border: solid var(--neon-green) 2px;
+} */
+
+input:invalid {
+	border: solid var(--my-red) 2px;
+}
+
+input:focus-visible {
+	outline: none;
+	border: solid var(--neon-green) 2px;
+	box-shadow: var(--light-green) 0.25rem 0.25rem;
+}
+
+fieldset {
+	border: none;
+	background-color: var(--darkest-green);
+}
+
+input:-internal-autofill-selected {
+	background-color: inherit;
+	border: inherit;
+	color: inherit;
+}
+
+
+#create-account {
+	background-color: var(--darkest-green);
+	border-radius: 0.2rem;
+	border: none;
+	color: var(--light-green);
+	font-weight: 800;
+	padding: 0.25rem 1rem;
 }
