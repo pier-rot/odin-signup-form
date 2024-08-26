@@ -11,11 +11,11 @@
 			<fieldset>
 				<div class="row" id="row-1">
 					<label for="email">E-mail :</label>
-					<input type="email" name="email" id="email" />
+					<input type="email" name="email" id="email" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"/>
 				</div>
 				<div class="row" id="row-2">
 					<label for="password">Password :</label>
-					<input type="password" name="password" id="password" />
+					<input type="password" name="password" id="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"/>
 				</div>
                 <div class="row" id="row-3">
                     <button id="login" type="submit">Log In</button>
