@@ -84,3 +84,23 @@ h5,
 h6 {
 	overflow-wrap: break-word;
 }
+
+/* Custom properties and default styling */
+:root {
+	--my-black: #040404;
+	--darkest-green: #223c17;
+	--dark-green: #3f732a;
+	--medium-green: #5cab3d;
+	--light-green: #79e24f;
+	--neon-green: #54ff11;
+	
+	background-color: var(--my-black);
+	color: var(--light-green);
+}
+
+/* Flex */
+body {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
