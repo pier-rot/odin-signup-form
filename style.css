@@ -1,71 +1,86 @@
-@font-face { /* 3270 Nerd Font Regular */
-    font-family: "3270 Nerd Font Regular";
-    src: url(fonts/3270NerdFont-Regular.ttf);
+@font-face {
+	/* 3270 Nerd Font Regular */
+	font-family: "3270 Nerd Font Regular";
+	src: url(fonts/3270NerdFont-Regular.ttf);
 }
-@font-face { /* 3270 Nerd Font Condensed */
-    font-family: "3270 Nerd Font Condensed";
-    src: url(fonts/3270NerdFont-Condensed.ttf);
+@font-face {
+	/* 3270 Nerd Font Condensed */
+	font-family: "3270 Nerd Font Condensed";
+	src: url(fonts/3270NerdFont-Condensed.ttf);
 }
-@font-face { /* 3270 Nerd Font Semi Condensed */
-    font-family: "3270 Nerd Font Semi Condensed";
-    src: url(fonts/3270NerdFont-SemiCondensed.ttf);
+@font-face {
+	/* 3270 Nerd Font Semi Condensed */
+	font-family: "3270 Nerd Font Semi Condensed";
+	src: url(fonts/3270NerdFont-SemiCondensed.ttf);
 }
-@font-face { /* 3270 Nerd Font Mono Condensed */
-    font-family: "3270 Nerd Font Mono Condensed";
-    src: url(fonts/3270NerdFontMono-Condensed.ttf);
+@font-face {
+	/* 3270 Nerd Font Mono Condensed */
+	font-family: "3270 Nerd Font Mono Condensed";
+	src: url(fonts/3270NerdFontMono-Condensed.ttf);
 }
-@font-face { /* 3270 Nerd Font Mono Regular*/
-    font-family: "3270 Nerd Font Mono Regular";
-    src: url(fonts/3270NerdFontMono-Regular.ttf);
+@font-face {
+	/* 3270 Nerd Font Mono Regular*/
+	font-family: "3270 Nerd Font Mono Regular";
+	src: url(fonts/3270NerdFontMono-Regular.ttf);
 }
-@font-face { /* 3270 Nerd Font Mono Semi Condensed */
-    font-family: "3270 Nerd Font Mono Semi Condensed";
-    src: url(fonts/3270NerdFontMono-SemiCondensed.ttf);
+@font-face {
+	/* 3270 Nerd Font Mono Semi Condensed */
+	font-family: "3270 Nerd Font Mono Semi Condensed";
+	src: url(fonts/3270NerdFontMono-SemiCondensed.ttf);
 }
 
 /*
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  /*
-    2. Remove default margin
-  */
-  * {
-    margin: 0;
-  }
-  /*
-    Typographic tweaks!
-    3. Add accessible line-height
-    4. Improve text rendering
-  */
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  /*
-    5. Improve media defaults
-  */
-  img, picture, video, canvas, svg {
-    /* display: block; */
-    max-width: 100%;
-  }
-  /*
-    6. Remove built-in form typography styles
-  */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  /*
-    7. Avoid text overflows
-  */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  /*
-    8. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
-  }
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+	margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+	/* display: block; */
+	max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
