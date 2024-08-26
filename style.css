@@ -101,7 +101,7 @@ h6 {
 	font-size: 24px;
 
 	background-color: var(--my-black);
-	color: var(--light-green);
+	color: var(--neon-green);
 
 	font-family: "3270 Nerd Font Mono Regular";
 }
@@ -200,7 +200,7 @@ fieldset {
 
 a {
 	/* text-decoration: none; */
-	color: var(--neon-green);
+	color: var(--my-yellow);
 }
 
 input {
@@ -208,7 +208,7 @@ input {
 	border: solid var(--darkest-green) 2px;
 	box-shadow: var(--my-black) 0.25rem 0.25rem;
 	border-radius: 0.1rem;
-	color: var(--light-green);
+	color: var(--neon-green);
 	line-height: 1.15;
 	padding: 0.25rem;
 }
@@ -243,7 +243,7 @@ input:-internal-autofill-selected {
 	background-color: var(--darkest-green);
 	border-radius: 0.2rem;
 	border: none;
-	color: var(--light-green);
+	color: var(--neon-green);
 	font-weight: 800;
 	padding: 0.25rem 1rem;
 }
