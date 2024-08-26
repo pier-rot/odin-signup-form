@@ -96,6 +96,8 @@ h6 {
 	
 	background-color: var(--my-black);
 	color: var(--light-green);
+
+	font-family: "3270 Nerd Font Mono Regular";
 }
 
 /* Flex */
