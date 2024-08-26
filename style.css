@@ -99,6 +99,7 @@ h6 {
 	--my-blue: #122aff;
 
 	font-size: 24px;
+	text-shadow: #54ff1180 0px 0px 0.25em;
 
 	background-color: var(--my-black);
 	color: var(--neon-green);
@@ -224,7 +225,7 @@ input:invalid {
 input:focus-visible {
 	outline: none;
 	border: solid var(--neon-green) 2px;
-	box-shadow: var(--light-green) 0.25rem 0.25rem;
+	/* box-shadow: var(--light-green) 0.25rem 0.25rem; */
 }
 
 fieldset {
