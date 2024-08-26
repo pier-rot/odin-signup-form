@@ -1,0 +1,24 @@
+@font-face { /* 3270 Nerd Font Regular */
+    font-family: "3270 Nerd Font Regular";
+    src: url(fonts/3270NerdFont-Regular.ttf);
+}
+@font-face { /* 3270 Nerd Font Condensed */
+    font-family: "3270 Nerd Font Condensed";
+    src: url(fonts/3270NerdFont-Condensed.ttf);
+}
+@font-face { /* 3270 Nerd Font Semi Condensed */
+    font-family: "3270 Nerd Font Semi Condensed";
+    src: url(fonts/3270NerdFont-SemiCondensed.ttf);
+}
+@font-face { /* 3270 Nerd Font Mono Condensed */
+    font-family: "3270 Nerd Font Mono Condensed";
+    src: url(fonts/3270NerdFontMono-Condensed.ttf);
+}
+@font-face { /* 3270 Nerd Font Mono Regular*/
+    font-family: "3270 Nerd Font Mono Regular";
+    src: url(fonts/3270NerdFontMono-Regular.ttf);
+}
+@font-face { /* 3270 Nerd Font Mono Semi Condensed */
+    font-family: "3270 Nerd Font Mono Semi Condensed";
+    src: url(fonts/3270NerdFontMono-SemiCondensed.ttf);
+}
