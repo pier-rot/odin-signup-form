@@ -22,3 +22,7 @@
     font-family: "3270 Nerd Font Mono Semi Condensed";
     src: url(fonts/3270NerdFontMono-SemiCondensed.ttf);
 }
+
+:root {
+    box-sizing: border-box;
+}
